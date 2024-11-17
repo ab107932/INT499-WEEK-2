@@ -1,0 +1,77 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.stream-list {
+  padding: 20px;
+  background-color: #f0f4f8;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.stream-list h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.stream-list input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.stream-list button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.stream-list button:hover {
+  background-color: #0056b3;
+}
+
+.event-list {
+  margin-top: 30px;
+}
+
+.event-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-list li {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+/* Add some space and styling to the button */
+button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button i {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 18px; /* Icon size */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
